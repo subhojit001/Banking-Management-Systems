@@ -1,48 +1,39 @@
-<<<<<<< HEAD
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+# IntelliJ IDEA
+.idea/
+*.iml
 
-### Eclipse ###
+# Java build files
+out/
+target/
+*.class
+
+# Eclipse
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
+# Mac OS
 .DS_Store
-=======
-# Compiled class file
-*.class
 
-# Log file
+# Logs
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Java archives
 *.jar
 *.war
 *.nar
@@ -51,7 +42,6 @@ bin/
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Java VM crash logs
 hs_err_pid*
 replay_pid*
->>>>>>> 2e8f2c5b521adb1b8de98e102bd136ede6b78248
